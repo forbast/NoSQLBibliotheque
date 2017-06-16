@@ -1,0 +1,26 @@
+[
+  {
+    "_isbn": "1234567891235",
+    "titre": "Les guerriers de l'ombre ",
+	"auteur": "Jean-Christophe Notin ",
+    "dateAchat": "11/01/2016",
+    "etat": "neuf",
+	"theme": "science-fiction"
+  },
+  {
+    "_isbn": "1234567891234",
+    "titre": "XIII - Mystery Tome 11 : Jonathan Fly ",
+	"auteur": "Olivier Taduc",
+    "dateAchat": "11/01/2017",
+    "etat": "bon etat",
+	"theme": "BD"
+  },
+  {
+    "_isbn": "1234567891232",
+    "titre": "Au fond de l'eau ",
+	"auteur": "Paula Hawkins ",
+    "dateAchat": "11/06/2017",
+    "etat": "abime",
+	"theme": "science-fiction"
+  }
+]

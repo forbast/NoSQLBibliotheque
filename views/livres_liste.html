@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+	head
+		Livres
+	body
+		p Liste des livres dans la bibliotheque :
+		<table>
+			<tr>
+				<td>Titre</td>
+				<td>Date d'achat</td>
+				<td>Theme</td>
+				<td>Auteur</td>
+				<td>Etat</td>
+				<td></td>
+			</tr>
+			each livre in livres
+				<tr>
+					<td><a href="/books/#{livre._id}">#{livre.titre}</a></td>
+					<td>#{livre.dateAchat}</td>
+					<td>#{livre.theme}</td>
+					<td>#{livre.auteur}</td>
+					<td>#{livre.etat}</td>
+					<td><a href="/books/delete/#{livre._id}">Supprimer</a></td>
+				</tr>
+		</table>
+		
+		<a href="/booksform">Ajouter un livre</a>
